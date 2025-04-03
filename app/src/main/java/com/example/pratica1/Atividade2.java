@@ -13,85 +13,204 @@ public class Atividade2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.atividade1);
+        setContentView(R.layout.atividade2);
 
-        Button btsum1= (Button) findViewById(R.id.sum1);
-        Button btminus1= (Button) findViewById(R.id.minus1);
-        Button btmultiply1= (Button) findViewById(R.id.multiply1);
-        Button btdivide1 = (Button) findViewById(R.id.divide1);
+        Button btsum = (Button) findViewById(R.id.sum);
+        Button btminus = (Button) findViewById(R.id.minus);
+        Button btmultiply = (Button) findViewById(R.id.multiply);
+        Button btdivide = (Button) findViewById(R.id.divide);
+        Button btdot = (Button) findViewById(R.id.dot);
+        Button btclear = (Button) findViewById(R.id.clear);
+        Button btbackspace = (Button) findViewById(R.id.backspace);
+        Button btequal = (Button) findViewById(R.id.equal);
 
-        EditText input1 = (EditText) findViewById(R.id.value1);
-        EditText input2 = (EditText) findViewById(R.id.value2);
-        TextView result = (TextView) findViewById(R.id.result1);
+        EditText visor = (EditText) findViewById(R.id.visor);
 
+        Button bt9 = (Button) findViewById(R.id.number9);
+        Button bt8 = (Button) findViewById(R.id.number8);
+        Button bt7 = (Button) findViewById(R.id.number7);
+        Button bt6 = (Button) findViewById(R.id.number6);
+        Button bt5 = (Button) findViewById(R.id.number5);
+        Button bt4 = (Button) findViewById(R.id.number4);
+        Button bt3 = (Button) findViewById(R.id.number3);
+        Button bt2 = (Button) findViewById(R.id.number2);
+        Button bt1 = (Button) findViewById(R.id.number1);
+        Button bt0 = (Button) findViewById(R.id.number0);
 
-        btsum1.setOnClickListener(new View.OnClickListener() {
-            @Override
+        bt0.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
-                    // Captura os valores inseridos
-                    double num1 = Double.parseDouble(input1.getText().toString());
-                    double num2 = Double.parseDouble(input2.getText().toString());
-
-                    // Realiza a soma
-                    double calc = num1 + num2;
-                    result.setText("O resultado é: " + calc); // Exibe o resultado
+                    visor.append("0");
                 } catch (NumberFormatException e) {
                     Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
-        // Ação para o botão de subtração
-        btminus1.setOnClickListener(new View.OnClickListener() {
+        bt1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
-                    // Captura os valores inseridos
-                    double num1 = Double.parseDouble(input1.getText().toString());
-                    double num2 = Double.parseDouble(input2.getText().toString());
-
-                    // Realiza a subtração
-                    double cal = num1 - num2;
-                    result.setText("O resultado é: "  + cal); // Exibe o resultado
+                    visor.append("1");
                 } catch (NumberFormatException e) {
                     Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
-        // Ação para o botão de multiplicação
-        btmultiply1.setOnClickListener(new View.OnClickListener() {
+        bt2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
-                    // Captura os valores inseridos
-                    double num1 = Double.parseDouble(input1.getText().toString());
-                    double num2 = Double.parseDouble(input2.getText().toString());
-
-                    // Realiza a multiplicação
-                    double cal = num1 * num2;
-                    result.setText("O resultado é: "  + cal); // Exibe o resultado
+                    visor.append("2");
                 } catch (NumberFormatException e) {
                     Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
-        // Ação para o botão de divisão
-        btdivide1.setOnClickListener(new View.OnClickListener() {
+        bt3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
-                    // Captura os valores inseridos
-                    double num1 = Double.parseDouble(input1.getText().toString());
-                    double num2 = Double.parseDouble(input2.getText().toString());
+                    visor.append("3");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
 
-                    // Verifica se a divisão por zero foi tentada
-                    if (num2 == 0) {
-                        Toast.makeText(Atividade2.this, "Não é possível dividir por ZERO", Toast.LENGTH_SHORT).show();
-                    } else {
-                        // Realiza a divisão
-                        double calc = num1 / num2;
-                        result.setText("O resultado é: "  + calc); // Exibe o resultado
-                    }
+        bt4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("4");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        bt5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("5");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        bt6.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("6");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        bt7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("7");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        bt8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("8");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        bt9.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("9");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btsum.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("1");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btminus.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("1");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btdivide.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("1");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btmultiply.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("1");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btbackspace.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("1");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btdot.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("1");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btclear.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("1");
+                } catch (NumberFormatException e) {
+                    Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btequal.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    visor.append("1");
                 } catch (NumberFormatException e) {
                     Toast.makeText(Atividade2.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
                 }
@@ -99,10 +218,4 @@ public class Atividade2 extends AppCompatActivity {
         });
     }
 
-
-    @Override
-    public boolean onSupportNavigateUp() {
-        finish(); // Fecha a atividade e volta para a anterior
-        return true;
-    }
 }

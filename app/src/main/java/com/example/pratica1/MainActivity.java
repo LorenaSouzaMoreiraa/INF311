@@ -27,5 +27,13 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+        bt2.setOnClickListener(new Button.OnClickListener(){
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, Atividade2.class);
+                startActivity(intent);
+            }
+
+        });
     }
 }
