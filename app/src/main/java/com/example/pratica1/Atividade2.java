@@ -37,6 +37,7 @@ public class Atividade2 extends AppCompatActivity {
         Button bt1 = (Button) findViewById(R.id.number1);
         Button bt0 = (Button) findViewById(R.id.number0);
 
+        // TODO: add numeros
         bt0.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -137,6 +138,7 @@ public class Atividade2 extends AppCompatActivity {
             }
         });
 
+        // TODO: operacoes numeros
         btsum.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
@@ -177,6 +179,7 @@ public class Atividade2 extends AppCompatActivity {
             }
         });
 
+        // TODO: add operacoes visor
         btbackspace.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 try {
