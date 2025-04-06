@@ -1,7 +1,7 @@
 package com.example.pratica1;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.util.Log;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,6 +16,8 @@ import java.util.Map;
 import java.util.Stack;
 
 public class Atividade2 extends AppCompatActivity {
+    private static final double EPSILON = 1e-10; // Margem segura para considerar zero
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -388,25 +390,28 @@ public class Atividade2 extends AppCompatActivity {
             }
         });
 
-            btdot.setOnClickListener(new View.OnClickListener() {
-                public void onClick(View v) {
-                    try {
-                        if (result[0]) result[0] = false;
-                        String text = visor.getText().toString();
-                        String[] parts = text.split("[+\\-*/]");
-                        String end = parts[parts.length - 1];
+        btdot.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try {
+                    if (result[0]) result[0] = false;
 
-                        // Verifica se o último número contém apenas dígitos e não possui ponto decimal ainda
-                        if (end.matches("\\d+") && !end.contains(".")) {
-                            visor.append(".");
-                        } else {
-                            throw new NumberFormatException();
-                        }
-                    } catch (NumberFormatException e) {
-                       visor.setText("ERROR");
+                    String text = visor.getText().toString();
+                    String[] parts = text.split("[+\\-*/]");
+                    String end = String.valueOf(text.charAt(text.length() - 1));
+
+                    //Toast.makeText(Atividade2.this, end, Toast.LENGTH_SHORT).show();
+
+                    // Verifica se o último número contém apenas dígitos e não possui ponto decimal ainda
+                    if (end.matches("\\d+") && !parts[parts.length-1].contains(".")) {
+                        visor.append(".");
+                    } else {
+                        throw new NumberFormatException();
                     }
+                } catch (NumberFormatException e) {
+                   visor.setText("ERROR");
                 }
-            });
+            }
+        });
 
         btclear.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -428,10 +433,6 @@ public class Atividade2 extends AppCompatActivity {
                     if (expression.isEmpty() || expression.matches(".*[+\\-*/]$"))
                         throw new NumberFormatException();
 
-                    // Verifica divisão por zero
-                    if (expression.contains("/0"))
-                        throw new NumberFormatException();
-
                     // Avalia a expressão e exibe o resultado
                     double calc = evaluateExpression(expression);
                     visor.setText(String.valueOf(calc));
@@ -449,32 +450,40 @@ public class Atividade2 extends AppCompatActivity {
         List<String> output = new ArrayList<>();
         Stack<Character> operators = new Stack<>();
         StringBuilder number = new StringBuilder();
+        char prevChar = ' ';
 
-        for (char ch : expression.toCharArray()) {
+        for (int i = 0; i < expression.length(); i++) {
+            char ch = expression.charAt(i);
+
             if (Character.isDigit(ch) || ch == '.') {
-                number.append(ch); // Construir números com vários dígitos
+                number.append(ch);
+            } else if (ch == '-' && (i == 0 || "+-*/".indexOf(prevChar) >= 0)) {
+                // Trata número negativo no início ou após um operador
+                number.append(ch);
             } else {
                 if (number.length() > 0) {
-                    output.add(number.toString()); // Adiciona número na saída
+                    output.add(number.toString());
                     number.setLength(0);
                 }
+
                 if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
                     while (!operators.isEmpty() && precedence.get(operators.peek()) >= precedence.get(ch)) {
-                        output.add(String.valueOf(operators.pop())); // Desempilha operadores de maior prioridade
+                        output.add(String.valueOf(operators.pop()));
                     }
-                    operators.push(ch); // Empilha operador atual
+                    operators.push(ch);
                 }
             }
+            prevChar = ch;
         }
+
         if (number.length() > 0) {
-            output.add(number.toString()); // Adiciona último número
+            output.add(number.toString());
         }
         while (!operators.isEmpty()) {
-            output.add(String.valueOf(operators.pop())); // Desempilha operadores restantes
+            output.add(String.valueOf(operators.pop()));
         }
         return output;
     }
-
     // Avalia expressão pós-fixa
     private static double evaluatePostfix(List<String> postfix) {
         Stack<Double> stack = new Stack<>();
@@ -490,7 +499,8 @@ public class Atividade2 extends AppCompatActivity {
                     case '-': stack.push(a - b); break;
                     case '*': stack.push(a * b); break;
                     case '/':
-                        if (b == 0) throw new ArithmeticException("Divisão por zero!");
+                        Log.d("CALC_DEBUG", "a = " + a + ", b = " + b); // imprime no Logcat
+                        if (Math.abs(b) < EPSILON) throw new ArithmeticException("Divisão por zero!");
                         stack.push(a / b);
                         break;
                 }
