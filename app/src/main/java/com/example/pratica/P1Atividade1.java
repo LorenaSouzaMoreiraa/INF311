@@ -1,4 +1,4 @@
-package com.example.pratica1;
+package com.example.pratica;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,11 +9,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Atividade1 extends AppCompatActivity {
+
+public class P1Atividade1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.atividade1);
+        setContentView(R.layout.p1atividade1);
 
         Button btsum1= (Button) findViewById(R.id.sum1);
         Button btminus1= (Button) findViewById(R.id.minus1);
@@ -37,7 +38,7 @@ public class Atividade1 extends AppCompatActivity {
                     double calc = num1 + num2;
                     result.setText("O resultado é: " + calc); // Exibe o resultado
                 } catch (NumberFormatException e) {
-                    Toast.makeText(Atividade1.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(P1Atividade1.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -54,7 +55,7 @@ public class Atividade1 extends AppCompatActivity {
                     double cal = num1 - num2;
                     result.setText("O resultado é: "  + cal); // Exibe o resultado
                 } catch (NumberFormatException e) {
-                    Toast.makeText(Atividade1.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(P1Atividade1.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -71,7 +72,7 @@ public class Atividade1 extends AppCompatActivity {
                     double cal = num1 * num2;
                     result.setText("O resultado é: "  + cal); // Exibe o resultado
                 } catch (NumberFormatException e) {
-                    Toast.makeText(Atividade1.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(P1Atividade1.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -86,14 +87,14 @@ public class Atividade1 extends AppCompatActivity {
 
                     // Verifica se a divisão por zero foi tentada
                     if (num2 == 0) {
-                        Toast.makeText(Atividade1.this, "Não é possível dividir por ZERO", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(P1Atividade1.this, "Não é possível dividir por ZERO", Toast.LENGTH_SHORT).show();
                     } else {
                         // Realiza a divisão
                         double calc = num1 / num2;
                         result.setText("O resultado é: "  + calc); // Exibe o resultado
                     }
                 } catch (NumberFormatException e) {
-                    Toast.makeText(Atividade1.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(P1Atividade1.this, "Por favor, insira números válidos.", Toast.LENGTH_SHORT).show();
                 }
             }
         });

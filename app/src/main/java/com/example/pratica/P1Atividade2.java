@@ -1,4 +1,4 @@
-package com.example.pratica1;
+package com.example.pratica;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,13 +13,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Stack;
 
-public class Atividade2 extends AppCompatActivity {
+public class P1Atividade2 extends AppCompatActivity {
     private static final double EPSILON = 1e-10; // Margem segura para considerar zero
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.atividade2);
+        setContentView(R.layout.p1atividade2);
 
         Button btsum = (Button) findViewById(R.id.sum);
         Button btminus = (Button) findViewById(R.id.minus);

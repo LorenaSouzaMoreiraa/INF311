@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/atividade1">
+    android:id="@+id/p1atividade1">
 
     <!-- LinearLayout para as entradas de valores -->
     <LinearLayout

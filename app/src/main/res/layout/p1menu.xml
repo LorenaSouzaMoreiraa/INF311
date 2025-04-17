@@ -2,10 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/p1menu"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -19,15 +18,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
         <Button
-            android:id="@+id/p1"
+            android:id="@+id/p1atividade1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Prática 1" />
+            android:text="Atividade 1" />
 
         <Button
-            android:id="@+id/p2"
+            android:id="@+id/p2atividade2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Prática 2" />
+            android:text="Atividade 2" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
