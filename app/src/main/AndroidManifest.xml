@@ -22,5 +22,11 @@
         <activity android:name=".P2Sheet" android:parentActivityName=".P2Form">
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".P2Form"/>
         </activity>
+        <activity android:name=".P3Menu" android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".P3Map" android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        </activity>
     </application>
 </manifest>
