@@ -25,8 +25,8 @@
         <activity android:name=".P3Menu" android:parentActivityName=".MainActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
         </activity>
-        <activity android:name=".P3Map" android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity"/>
+        <activity android:name=".P3Map" android:parentActivityName=".P3Menu">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".P3Menu"/>
         </activity>
     </application>
 </manifest>

@@ -21,7 +21,7 @@ public class P3Menu extends AppCompatActivity {
                 "Minha casa na cidade Natal",
                 "Minha casa em Viçosa",
                 "Meu Departamento",
-                "Minha casa em Viçosa"
+                "Fechar aplicação"
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
