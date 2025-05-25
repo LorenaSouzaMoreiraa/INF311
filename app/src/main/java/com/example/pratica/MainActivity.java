@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_main);
+        DBHelper.getInstance(this).getWritableDatabase();
 
         final Button bt1= (Button) findViewById(R.id.p1);
         final Button bt2= (Button) findViewById(R.id.p2);
