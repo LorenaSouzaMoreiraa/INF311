@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:id="@+id/p2sheet">
+
+    <!-- Título centralizado -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relatório nutricional"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Layout com as informações -->
+    <LinearLayout
+        android:id="@+id/info_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Nome -->
+        <TextView
+            android:id="@+id/resultadoNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome: "
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Idade -->
+        <TextView
+            android:id="@+id/resultadoIdade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idade: "
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Peso -->
+        <TextView
+            android:id="@+id/resultadoPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso (Kg): "
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Altura -->
+        <TextView
+            android:id="@+id/resultadoAltura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Altura (m): "
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- IMC -->
+        <TextView
+            android:id="@+id/resultadoIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMC:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Classificacao -->
+        <TextView
+            android:id="@+id/resultadoClassificacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMC:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Botão Voltar -->
+    <Button
+        android:id="@+id/btRecalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realizar novo cálculo"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/info_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
