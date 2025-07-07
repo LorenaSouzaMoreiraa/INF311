@@ -59,7 +59,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Pratica" >
+        android:theme="@style/Theme.PraticaNight" >
         <activity
             android:name="com.example.pratica.MainActivity"
             android:exported="true" >
@@ -128,6 +128,38 @@
         <activity
             android:name="com.example.pratica.P4Control"
             android:parentActivityName="com.example.pratica.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.pratica.P5Form"
+            android:parentActivityName="com.example.pratica.P5Form"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".P5Form" />
+        </activity>
+        <activity
+            android:name="com.example.pratica.P5Map"
+            android:parentActivityName="com.example.pratica.P5Form"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".P5Map" />
+        </activity>
+        <activity
+            android:name="com.example.pratica.P5Gestao"
+            android:parentActivityName="com.example.pratica.P5Form"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".P5Map" />
+        </activity>
+        <activity
+            android:name="com.example.pratica.P5Report"
+            android:parentActivityName="com.example.pratica.P5Form"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".P5Report" />
         </activity>
 
         <!-- CHAVE API KEY - MapasAndroidStudio - P05 (console API project) -->

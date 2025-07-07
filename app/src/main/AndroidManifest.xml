@@ -29,7 +29,14 @@
         android:value="@integer/google_play_services_version" />
 
 
-    <application android:allowBackup="true" android:dataExtractionRules="@xml/data_extraction_rules" android:fullBackupContent="@xml/backup_rules" android:icon="@mipmap/ic_launcher" android:label="pratica" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.Pratica" tools:targetApi="31">
+    <application android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher" android:label="pratica"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PraticaNight"
+        tools:targetApi="31">
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -63,10 +70,18 @@
         <activity
             android:name=".P4Control"
             android:parentActivityName=".MainActivity">
-
-
-
-
+        </activity>
+        <activity android:name=".P5Form" android:parentActivityName=".P5Form" android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".P5Form"/>
+        </activity>
+        <activity android:name=".P5Map" android:parentActivityName=".P5Form" android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".P5Map"/>
+        </activity>
+        <activity android:name=".P5Gestao" android:parentActivityName=".P5Form" android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".P5Map"/>
+        </activity>
+        <activity android:name=".P5Report" android:parentActivityName=".P5Form" android:theme="@style/AppTheme">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".P5Report"/>
         </activity>
 
         <!-- CHAVE API KEY - MapasAndroidStudio - P05 (console API project)-->

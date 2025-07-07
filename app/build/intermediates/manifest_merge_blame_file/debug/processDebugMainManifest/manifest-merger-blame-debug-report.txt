@@ -85,254 +85,314 @@
 48-->[androidx.core:core:1.13.0] C:\Users\loli1\.gradle\caches\transforms-4\0203ffb4733104214acfdf2e0f0385a0\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 49
 50    <application
-50-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:5-77:19
+50-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:5-92:19
 51        android:allowBackup="true"
 51-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:18-44
 52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 52-->[androidx.core:core:1.13.0] C:\Users\loli1\.gradle\caches\transforms-4\0203ffb4733104214acfdf2e0f0385a0\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 53        android:dataExtractionRules="@xml/data_extraction_rules"
-53-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:45-101
+53-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:33:9-65
 54        android:debuggable="true"
 55        android:extractNativeLibs="false"
 56        android:fullBackupContent="@xml/backup_rules"
-56-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:102-147
+56-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:34:9-54
 57        android:icon="@mipmap/ic_launcher"
-57-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:148-182
+57-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:35:9-43
 58        android:label="pratica"
-58-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:183-206
+58-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:35:44-67
 59        android:roundIcon="@mipmap/ic_launcher_round"
-59-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:207-252
+59-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:36:9-54
 60        android:supportsRtl="true"
-60-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:253-279
+60-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:37:9-35
 61        android:testOnly="true"
-62        android:theme="@style/Theme.Pratica" >
-62-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:32:280-316
+62        android:theme="@style/Theme.PraticaNight" >
+62-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:38:9-50
 63        <activity
-63-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:33:9-38:20
+63-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:9-45:20
 64            android:name="com.example.pratica.MainActivity"
-64-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:33:19-47
+64-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:19-47
 65            android:exported="true" >
-65-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:33:48-71
+65-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:48-71
 66            <intent-filter>
-66-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:34:13-37:29
+66-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:41:13-44:29
 67                <action android:name="android.intent.action.MAIN" />
-67-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:35:17-68
-67-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:35:25-66
+67-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:42:17-68
+67-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:42:25-66
 68
 69                <category android:name="android.intent.category.LAUNCHER" />
-69-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:36:17-76
-69-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:36:27-74
+69-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:43:17-76
+69-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:43:27-74
 70            </intent-filter>
 71        </activity>
 72        <activity
-72-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:39:9-41:20
+72-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:46:9-48:20
 73            android:name="com.example.pratica.P1Menu"
-73-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:39:19-41
+73-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:46:19-41
 74            android:parentActivityName="com.example.pratica.MainActivity" >
-74-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:39:42-84
+74-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:46:42-84
 75            <meta-data
-75-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:13-102
+75-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
 76                android:name="android.support.PARENT_ACTIVITY"
-76-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:24-70
+76-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
 77                android:value=".MainActivity" />
-77-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:71-100
+77-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
 78        </activity>
 79        <activity
-79-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:42:9-44:20
+79-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:49:9-51:20
 80            android:name="com.example.pratica.P1Atividade1"
-80-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:42:19-47
+80-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:49:19-47
 81            android:parentActivityName="com.example.pratica.P1Menu" >
-81-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:42:48-84
+81-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:49:48-84
 82            <meta-data
-82-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:13-102
+82-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
 83                android:name="android.support.PARENT_ACTIVITY"
-83-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:24-70
+83-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
 84                android:value=".P1Menu" />
-84-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:71-100
+84-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
 85        </activity>
 86        <activity
-86-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:45:9-47:20
+86-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:52:9-54:20
 87            android:name="com.example.pratica.P1Atividade2"
-87-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:45:19-47
+87-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:52:19-47
 88            android:parentActivityName="com.example.pratica.P1Menu" >
-88-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:45:48-84
+88-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:52:48-84
 89            <meta-data
-89-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:13-102
+89-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
 90                android:name="android.support.PARENT_ACTIVITY"
-90-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:24-70
+90-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
 91                android:value=".P1Menu" />
-91-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:71-100
+91-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
 92        </activity>
 93        <activity
-93-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:48:9-50:20
+93-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:55:9-57:20
 94            android:name="com.example.pratica.P2Form"
-94-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:48:19-41
+94-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:55:19-41
 95            android:parentActivityName="com.example.pratica.MainActivity" >
-95-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:48:42-84
+95-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:55:42-84
 96            <meta-data
-96-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:13-102
+96-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
 97                android:name="android.support.PARENT_ACTIVITY"
-97-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:24-70
+97-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
 98                android:value=".MainActivity" />
-98-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:71-100
+98-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
 99        </activity>
 100        <activity
-100-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:51:9-53:20
+100-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:58:9-60:20
 101            android:name="com.example.pratica.P2Sheet"
-101-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:51:19-42
+101-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:58:19-42
 102            android:parentActivityName="com.example.pratica.P2Form" >
-102-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:51:43-79
+102-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:58:43-79
 103            <meta-data
-103-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:13-102
+103-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
 104                android:name="android.support.PARENT_ACTIVITY"
-104-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:24-70
+104-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
 105                android:value=".P2Form" />
-105-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:71-100
+105-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
 106        </activity>
 107        <activity
-107-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:54:9-56:20
+107-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:61:9-63:20
 108            android:name="com.example.pratica.P3Menu"
-108-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:54:19-41
+108-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:61:19-41
 109            android:parentActivityName="com.example.pratica.MainActivity" >
-109-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:54:42-84
+109-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:61:42-84
 110            <meta-data
-110-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:13-102
+110-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
 111                android:name="android.support.PARENT_ACTIVITY"
-111-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:24-70
+111-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
 112                android:value=".MainActivity" />
-112-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:71-100
+112-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
 113        </activity>
 114        <activity
-114-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:57:9-59:20
+114-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:64:9-66:20
 115            android:name="com.example.pratica.P3Map"
-115-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:57:19-40
+115-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:64:19-40
 116            android:parentActivityName="com.example.pratica.P3Menu" >
-116-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:57:41-77
+116-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:64:41-77
 117            <meta-data
-117-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:13-102
+117-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
 118                android:name="android.support.PARENT_ACTIVITY"
-118-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:24-70
+118-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
 119                android:value=".P3Menu" />
-119-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:71-100
+119-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
 120        </activity>
 121        <activity
-121-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:60:9-62:20
+121-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:67:9-69:20
 122            android:name="com.example.pratica.Report"
-122-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:60:19-41
+122-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:67:19-41
 123            android:parentActivityName="com.example.pratica.P3Menu" >
-123-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:60:42-78
+123-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:67:42-78
 124            <meta-data
-124-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:13-102
+124-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
 125                android:name="android.support.PARENT_ACTIVITY"
-125-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:24-70
+125-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
 126                android:value=".P3Menu" />
-126-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:40:71-100
+126-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
 127        </activity>
 128        <activity
-128-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:63:9-70:20
+128-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:70:9-73:20
 129            android:name="com.example.pratica.P4Control"
-129-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:64:13-38
+129-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:71:13-38
 130            android:parentActivityName="com.example.pratica.MainActivity" >
-130-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:65:13-55
+130-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:72:13-55
 131        </activity>
-132
-133        <!-- CHAVE API KEY - MapasAndroidStudio - P05 (console API project) -->
-134        <meta-data
-134-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:73:9-75:71
-135            android:name="com.google.android.maps.v2.API_KEY"
-135-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:74:13-62
-136            android:value="AIzaSyCNuOhwYppJMAbsEpKFEctObH5df78S1rU" />
-136-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:75:13-68
-137        <!-- com chave de debug -->
-138        <!-- Needs to be explicitly declared on P+ -->
-139        <uses-library
-139-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\loli1\.gradle\caches\transforms-4\ae7d3d3f5a36c5e37c9ba43716b316de\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
-140            android:name="org.apache.http.legacy"
-140-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\loli1\.gradle\caches\transforms-4\ae7d3d3f5a36c5e37c9ba43716b316de\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
-141            android:required="false" />
-141-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\loli1\.gradle\caches\transforms-4\ae7d3d3f5a36c5e37c9ba43716b316de\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
-142
-143        <activity
-143-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\loli1\.gradle\caches\transforms-4\5754764b52c2079c34331c860534a9da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-144            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-144-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\loli1\.gradle\caches\transforms-4\5754764b52c2079c34331c860534a9da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-145            android:exported="false"
-145-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\loli1\.gradle\caches\transforms-4\5754764b52c2079c34331c860534a9da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-146-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\loli1\.gradle\caches\transforms-4\5754764b52c2079c34331c860534a9da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-147
-148        <meta-data
-148-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:27:5-29:65
-149            android:name="com.google.android.gms.version"
-149-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:28:9-54
-150            android:value="@integer/google_play_services_version" />
-150-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:29:9-62
-151
-152        <provider
-152-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-153            android:name="androidx.startup.InitializationProvider"
-153-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-154            android:authorities="com.example.pratica.androidx-startup"
-154-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-155            android:exported="false" >
-155-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-156            <meta-data
-156-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-157                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-157-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-158                android:value="androidx.startup" />
-158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-159            <meta-data
-159-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\loli1\.gradle\caches\transforms-4\0778edee9e7c6808f6af9e2712df6018\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-160                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-160-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\loli1\.gradle\caches\transforms-4\0778edee9e7c6808f6af9e2712df6018\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-161                android:value="androidx.startup" />
-161-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\loli1\.gradle\caches\transforms-4\0778edee9e7c6808f6af9e2712df6018\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-162            <meta-data
-162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-163                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-164                android:value="androidx.startup" />
-164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-165        </provider>
-166
-167        <receiver
-167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-168            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-169            android:directBootAware="false"
-169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-170            android:enabled="true"
-170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-171            android:exported="true"
-171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-172            android:permission="android.permission.DUMP" >
-172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-173            <intent-filter>
-173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-174                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-175            </intent-filter>
-176            <intent-filter>
-176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-177                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-177-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-177-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-178            </intent-filter>
-179            <intent-filter>
-179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-180                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-180-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-180-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-181            </intent-filter>
-182            <intent-filter>
-182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-183                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-183-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-183-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-184            </intent-filter>
-185        </receiver>
-186    </application>
-187
-188</manifest>
+132        <activity
+132-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:74:9-76:20
+133            android:name="com.example.pratica.P5Form"
+133-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:74:19-41
+134            android:parentActivityName="com.example.pratica.P5Form"
+134-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:74:42-78
+135            android:theme="@style/AppTheme" >
+135-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:74:79-110
+136            <meta-data
+136-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
+137                android:name="android.support.PARENT_ACTIVITY"
+137-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
+138                android:value=".P5Form" />
+138-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
+139        </activity>
+140        <activity
+140-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:77:9-79:20
+141            android:name="com.example.pratica.P5Map"
+141-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:77:19-40
+142            android:parentActivityName="com.example.pratica.P5Form"
+142-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:77:41-77
+143            android:theme="@style/AppTheme" >
+143-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:77:78-109
+144            <meta-data
+144-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
+145                android:name="android.support.PARENT_ACTIVITY"
+145-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
+146                android:value=".P5Map" />
+146-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
+147        </activity>
+148        <activity
+148-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:80:9-82:20
+149            android:name="com.example.pratica.P5Gestao"
+149-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:80:19-43
+150            android:parentActivityName="com.example.pratica.P5Form"
+150-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:80:44-80
+151            android:theme="@style/AppTheme" >
+151-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:80:81-112
+152            <meta-data
+152-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
+153                android:name="android.support.PARENT_ACTIVITY"
+153-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
+154                android:value=".P5Map" />
+154-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
+155        </activity>
+156        <activity
+156-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:83:9-85:20
+157            android:name="com.example.pratica.P5Report"
+157-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:83:19-43
+158            android:parentActivityName="com.example.pratica.P5Form"
+158-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:83:44-80
+159            android:theme="@style/AppTheme" >
+159-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:83:81-112
+160            <meta-data
+160-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:13-102
+161                android:name="android.support.PARENT_ACTIVITY"
+161-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:24-70
+162                android:value=".P5Report" />
+162-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:47:71-100
+163        </activity>
+164
+165        <!-- CHAVE API KEY - MapasAndroidStudio - P05 (console API project) -->
+166        <meta-data
+166-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:88:9-90:71
+167            android:name="com.google.android.maps.v2.API_KEY"
+167-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:89:13-62
+168            android:value="AIzaSyCNuOhwYppJMAbsEpKFEctObH5df78S1rU" />
+168-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:90:13-68
+169        <!-- com chave de debug -->
+170        <!-- Needs to be explicitly declared on P+ -->
+171        <uses-library
+171-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\loli1\.gradle\caches\transforms-4\ae7d3d3f5a36c5e37c9ba43716b316de\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+172            android:name="org.apache.http.legacy"
+172-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\loli1\.gradle\caches\transforms-4\ae7d3d3f5a36c5e37c9ba43716b316de\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+173            android:required="false" />
+173-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\loli1\.gradle\caches\transforms-4\ae7d3d3f5a36c5e37c9ba43716b316de\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+174
+175        <activity
+175-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\loli1\.gradle\caches\transforms-4\5754764b52c2079c34331c860534a9da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\loli1\.gradle\caches\transforms-4\5754764b52c2079c34331c860534a9da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\loli1\.gradle\caches\transforms-4\5754764b52c2079c34331c860534a9da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\loli1\.gradle\caches\transforms-4\5754764b52c2079c34331c860534a9da\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+179
+180        <meta-data
+180-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:27:5-29:65
+181            android:name="com.google.android.gms.version"
+181-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:28:9-54
+182            android:value="@integer/google_play_services_version" />
+182-->C:\Users\loli1\StudioProjects\INF311\app\src\main\AndroidManifest.xml:29:9-62
+183
+184        <provider
+184-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+185            android:name="androidx.startup.InitializationProvider"
+185-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+186            android:authorities="com.example.pratica.androidx-startup"
+186-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+187            android:exported="false" >
+187-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+188            <meta-data
+188-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+189                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+189-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+190                android:value="androidx.startup" />
+190-->[androidx.emoji2:emoji2:1.2.0] C:\Users\loli1\.gradle\caches\transforms-4\664c4b959056a06f12d4988be5497451\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+191            <meta-data
+191-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\loli1\.gradle\caches\transforms-4\0778edee9e7c6808f6af9e2712df6018\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+192                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+192-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\loli1\.gradle\caches\transforms-4\0778edee9e7c6808f6af9e2712df6018\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+193                android:value="androidx.startup" />
+193-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\loli1\.gradle\caches\transforms-4\0778edee9e7c6808f6af9e2712df6018\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+194            <meta-data
+194-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+195                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+195-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+196                android:value="androidx.startup" />
+196-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+197        </provider>
+198
+199        <receiver
+199-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+200            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+201            android:directBootAware="false"
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+202            android:enabled="true"
+202-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+203            android:exported="true"
+203-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+204            android:permission="android.permission.DUMP" >
+204-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+205            <intent-filter>
+205-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+206                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+206-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+206-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+207            </intent-filter>
+208            <intent-filter>
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+209                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+209-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+209-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+210            </intent-filter>
+211            <intent-filter>
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+212                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+213            </intent-filter>
+214            <intent-filter>
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+215                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\loli1\.gradle\caches\transforms-4\91c9dd01937ff3b2bc80795d55bc4478\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+216            </intent-filter>
+217        </receiver>
+218    </application>
+219
+220</manifest>

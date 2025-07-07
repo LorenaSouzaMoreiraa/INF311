@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_voltar"
+        android:title="Voltar a Tela Principal"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_gestao_mapa"
+        android:title="Gestão de Check-in"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_relatorio_mapa"
+        android:title="Lugares mais visitados"
+        app:showAsAction="never" />
+
+    <!-- Item que contém o submenu -->
+    <item
+        android:title="Tipos de Mapa">
+        <menu>
+            <item
+                android:id="@+id/action_mapa_normal"
+                android:title="MAPA NORMAL" />
+            <item
+                android:id="@+id/action_mapa_hibrido"
+                android:title="MAPA HÍBRIDO" />
+        </menu>
+    </item>
+
+</menu>

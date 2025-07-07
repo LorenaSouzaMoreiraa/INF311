@@ -41,5 +41,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Prática 4" />
+
+        <Button
+            android:id="@+id/p5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prática 5" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
